@@ -15,15 +15,15 @@
   "dependencies": {
     "hoek": "5.x.x",
     "joi": "13.x.x",
-    "mailparser": "2.x.x",
+    "mailparser": "^3.2.0",
     "smtp-server": "3.x.x",
     "teamwork": "3.x.x",
     "wreck": "14.x.x"
   },
   "devDependencies": {
     "code": "5.x.x",
-    "lab": "15.x.x",
-    "nodemailer": "4.x.x"
+    "lab": "^18.0.2",
+    "nodemailer": "^6.6.2"
   },
   "scripts": {
     "test": "lab -a code -t 100 -L",
